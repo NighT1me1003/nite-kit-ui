@@ -1,0 +1,26 @@
+# Documentation site and source files are kept in the repository, not in the npm package.
+src
+index.html
+dist/docs
+
+# Local development configuration.
+vite.config.ts
+vite.lib.config.ts
+tsconfig.json
+tsconfig.lib.json
+scripts
+
+# Dependency and tool caches.
+node_modules
+.vite
+
+# Local logs and environment files.
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Git metadata.
+.git
+.gitignore
