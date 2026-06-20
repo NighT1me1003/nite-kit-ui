@@ -120,6 +120,16 @@ import 'nitekit/style.css'
 
 项目品牌名使用 `NiteKit UI`，npm 包名使用 `nitekit`。
 
+## Vibe Coding 声明
+
+本项目采用 Vibe Coding / AI 辅助开发方式完成，开发过程中使用了 Codex、ChatGPT 5.5 以及腾讯马维斯。
+
+项目仍处于早期阶段，可能还有很多问题或不完善的地方。如果你在使用中遇到问题，欢迎反馈到：
+
+```text
+NighT1me2001@outlook.com
+```
+
 ## 本地开发
 
 ```bash

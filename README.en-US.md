@@ -120,6 +120,16 @@ Extended components:
 
 The project brand is `NiteKit UI`, and the npm package name is `nitekit`.
 
+## Vibe Coding Statement
+
+This project was created with a Vibe Coding / AI-assisted development workflow. Codex, ChatGPT 5.5, and Tencent Marvis were used during development.
+
+The project is still in an early stage and may contain many issues or incomplete parts. If you encounter any problems, feedback is welcome at:
+
+```text
+NighT1me2001@outlook.com
+```
+
 ## Local Development
 
 ```bash
