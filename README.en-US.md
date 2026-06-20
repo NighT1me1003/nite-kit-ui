@@ -1,6 +1,6 @@
 # NiteKit UI
 
-[简体中文](https://gitee.com/NightT1me/nite-kit-ui/blob/main/README.md) | **English**
+[简体中文](./README.md) | **English**
 
 NiteKit UI is a Vue 3 component library with a glassmorphism visual language, TypeScript declarations, full-package install support, and a bilingual documentation portal.
 
@@ -211,9 +211,14 @@ git push gitee main
 
 ## GitHub
 
-If you also create a GitHub repository later, add it as a second remote:
+Repository:
+
+```text
+https://github.com/NighT1me1003/nite-kit-ui.git
+```
+
+Push code:
 
 ```bash
-git remote add github https://github.com/<your-name>/nite-kit-ui.git
-git push -u github main
+git push github main
 ```

@@ -1,6 +1,6 @@
 # NiteKit UI
 
-**简体中文** | [English](https://gitee.com/NightT1me/nite-kit-ui/blob/main/README.en-US.md)
+**简体中文** | [English](./README.en-US.md)
 
 NiteKit UI 是一个用于 Vue 3 的组件库，提供玻璃拟态风格、TypeScript 类型声明、完整安装入口，以及中英文双语文档门户。
 
@@ -211,9 +211,14 @@ git push gitee main
 
 ## GitHub
 
-如果后续也创建 GitHub 仓库，可以添加第二个 remote：
+仓库地址：
+
+```text
+https://github.com/NighT1me1003/nite-kit-ui.git
+```
+
+推送代码：
 
 ```bash
-git remote add github https://github.com/<your-name>/nite-kit-ui.git
-git push -u github main
+git push github main
 ```

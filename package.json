@@ -6,13 +6,13 @@
   "private": false,
   "license": "MIT",
   "author": "night1me",
-  "homepage": "https://gitee.com/NightT1me/nite-kit-ui#readme",
+  "homepage": "https://github.com/NighT1me1003/nite-kit-ui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/NightT1me/nite-kit-ui.git"
+    "url": "git+https://github.com/NighT1me1003/nite-kit-ui.git"
   },
   "bugs": {
-    "url": "https://gitee.com/NightT1me/nite-kit-ui/issues"
+    "url": "https://github.com/NighT1me1003/nite-kit-ui/issues"
   },
   "keywords": [
     "vue",
