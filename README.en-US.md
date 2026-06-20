@@ -1,33 +1,33 @@
 # NiteKit UI
 
-**简体中文** | [English](https://gitee.com/NightT1me/nite-kit-ui/blob/main/README.en-US.md)
+[简体中文](https://gitee.com/NightT1me/nite-kit-ui/blob/main/README.md) | **English**
 
-NiteKit UI 是一个用于 Vue 3 的组件库，提供玻璃拟态风格、TypeScript 类型声明、完整安装入口，以及中英文双语文档门户。
+NiteKit UI is a Vue 3 component library with a glassmorphism visual language, TypeScript declarations, full-package install support, and a bilingual documentation portal.
 
-## 特性
+## Features
 
-- 支持 Vue 3 插件安装：`app.use(NiteKit)`
-- 支持按需命名导入，便于局部注册和打包优化
-- 内置样式入口：`nitekit/style.css`
-- 输出 TypeScript 类型声明
-- 提供中英文文档门户，覆盖快速上手、Props、事件、插槽、方法和示例
-- 已准备好用于 npm、Gitee 和 GitHub 发布
+- Vue 3 plugin install: `app.use(NiteKit)`
+- Named component exports for local registration and tree-shaking friendly usage
+- Built-in stylesheet export: `nitekit/style.css`
+- TypeScript declaration output
+- Bilingual documentation portal for quick start, props, events, slots, methods, and examples
+- Ready for npm, Gitee, and GitHub publishing
 
-## 安装
+## Installation
 
 ```bash
 npm install nitekit
 ```
 
-你的项目中也需要安装 Vue 3：
+You also need Vue 3 in your application:
 
 ```bash
 npm install vue
 ```
 
-## 快速上手
+## Quick Start
 
-在 Vue 入口文件中注册全部组件：
+Register all components in your Vue entry file:
 
 ```ts
 import { createApp } from 'vue'
@@ -38,7 +38,7 @@ import App from './App.vue'
 createApp(App).use(NiteKit).mount('#app')
 ```
 
-然后在任意 Vue 组件中使用：
+Then use NiteKit components in any Vue component:
 
 ```vue
 <template>
@@ -65,18 +65,18 @@ function save() {
 </script>
 ```
 
-## 按需导入
+## Named Imports
 
-也可以单独导入组件：
+You can also import components one by one:
 
 ```ts
 import { NkButton, NkInput, NkCard } from 'nitekit'
 import 'nitekit/style.css'
 ```
 
-## 组件导出
+## Component Exports
 
-基础单文件组件：
+Core single-file components:
 
 - `NkButton`
 - `NkCard`
@@ -87,7 +87,7 @@ import 'nitekit/style.css'
 - `NkTable`
 - `NkTag`
 
-扩展组件：
+Extended components:
 
 - `NkAlert`
 - `NkAvatar`
@@ -116,70 +116,70 @@ import 'nitekit/style.css'
 - `NkTree`
 - `NkUpload`
 
-## 包名
+## Package Name
 
-项目品牌名使用 `NiteKit UI`，npm 包名使用 `nitekit`。
+The project brand is `NiteKit UI`, and the npm package name is `nitekit`.
 
-## 本地开发
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-文档门户会通过 Vite 在本地启动，默认地址：
+The docs portal runs locally through Vite. The default dev URL is:
 
 ```text
 http://127.0.0.1:5173/
 ```
 
-## 构建
+## Build
 
-构建文档站：
+Build the documentation site:
 
 ```bash
 npm run build
 ```
 
-构建 npm 组件库产物：
+Build the npm library package:
 
 ```bash
 npm run build:lib
 ```
 
-发布前完整检查：
+Run the full release check before publishing:
 
 ```bash
 npm run release:check
 ```
 
-## 发布到 npm
+## Publish to npm
 
-在当前电脑登录一次：
+Login once on your machine:
 
 ```bash
 npm login
 ```
 
-确认当前 npm 账号：
+Verify the current account:
 
 ```bash
 npm whoami
 ```
 
-构建并检查 npm 包内容：
+Build and inspect the package:
 
 ```bash
 npm run release:check
 ```
 
-公开发布：
+Publish publicly:
 
 ```bash
 npm publish --access public
 ```
 
-发布成功后，用户可以这样安装：
+After publishing, users can install it with:
 
 ```bash
 npm install nitekit
@@ -187,13 +187,13 @@ npm install nitekit
 
 ## Gitee
 
-仓库地址：
+Repository:
 
 ```text
 https://gitee.com/NightT1me/nite-kit-ui.git
 ```
 
-推送代码：
+Push code:
 
 ```bash
 git push gitee main
@@ -201,7 +201,7 @@ git push gitee main
 
 ## GitHub
 
-如果后续也创建 GitHub 仓库，可以添加第二个 remote：
+If you also create a GitHub repository later, add it as a second remote:
 
 ```bash
 git remote add github https://github.com/<your-name>/nite-kit-ui.git

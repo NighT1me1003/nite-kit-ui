@@ -27,6 +27,7 @@
     "nitekit-ui"
   ],
   "files": [
+    "README.en-US.md",
     "dist/lib",
     "dist/types"
   ],
