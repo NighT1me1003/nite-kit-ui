@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src"
+  },
+  "include": ["src/vite-env.d.ts", "src/index.ts", "src/components/**/*.vue", "src/components/**/*.ts"]
+}

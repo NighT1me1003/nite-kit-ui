@@ -1,0 +1,77 @@
+{
+  "name": "nitekit",
+  "version": "0.1.0",
+  "description": "NiteKit UI is a Vue 3 glassmorphism component library and bilingual documentation portal.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "author": "night1me",
+  "homepage": "https://gitee.com/NightT1me/nite-kit-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/NightT1me/nite-kit-ui.git"
+  },
+  "bugs": {
+    "url": "https://gitee.com/NightT1me/nite-kit-ui/issues"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "typescript",
+    "component-library",
+    "ui",
+    "design-system",
+    "glassmorphism",
+    "nitekit",
+    "nitekit-ui"
+  ],
+  "files": [
+    "dist/lib",
+    "dist/types"
+  ],
+  "sideEffects": [
+    "*.css",
+    "dist/lib/*.css"
+  ],
+  "main": "dist/lib/nitekit.umd.cjs",
+  "module": "dist/lib/nitekit.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/lib/nitekit.js",
+      "require": "./dist/lib/nitekit.umd.cjs"
+    },
+    "./style.css": "./dist/lib/nitekit.css"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run typecheck && vite build --outDir dist/docs",
+    "build:all": "npm run build && npm run build:lib",
+    "build:lib": "npm run build:types && vite build --config vite.lib.config.ts",
+    "pack:dry": "npm pack --dry-run",
+    "prebuild:types": "node scripts/clean-types.mjs",
+    "build:types": "vue-tsc -p tsconfig.lib.json --declaration --emitDeclarationOnly --outDir dist/types",
+    "preview": "vite preview --host 127.0.0.1",
+    "release:check": "npm run typecheck && npm run build:lib && npm run pack:dry",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": ">=3.5.0"
+  },
+  "devDependencies": {
+    "@lucide/vue": "1.21.0",
+    "@types/node": "24.10.1",
+    "@vitejs/plugin-vue": "6.0.7",
+    "typescript": "6.0.3",
+    "vite": "8.0.16",
+    "vue": "3.5.38",
+    "vue-tsc": "3.3.5"
+  }
+}
