@@ -11,7 +11,6 @@ NiteKit UI is a Vue 3 component library with a glassmorphism visual language, Ty
 - Built-in stylesheet export: `nitekit/style.css`
 - TypeScript declaration output
 - Bilingual documentation portal for quick start, props, events, slots, methods, and examples
-- Ready for npm, Gitee, and GitHub publishing
 
 ## Installation
 
@@ -155,44 +154,6 @@ Build the npm library package:
 
 ```bash
 npm run build:lib
-```
-
-Run the full release check before publishing:
-
-```bash
-npm run release:check
-```
-
-## Publish to npm
-
-Login once on your machine:
-
-```bash
-npm login
-```
-
-Verify the current account:
-
-```bash
-npm whoami
-```
-
-Build and inspect the package:
-
-```bash
-npm run release:check
-```
-
-Publish publicly:
-
-```bash
-npm publish --access public
-```
-
-After publishing, users can install it with:
-
-```bash
-npm install nitekit
 ```
 
 ## Gitee

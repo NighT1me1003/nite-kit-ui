@@ -11,7 +11,6 @@ NiteKit UI 是一个用于 Vue 3 的组件库，提供玻璃拟态风格、TypeS
 - 内置样式入口：`nitekit/style.css`
 - 输出 TypeScript 类型声明
 - 提供中英文文档门户，覆盖快速上手、Props、事件、插槽、方法和示例
-- 已准备好用于 npm、Gitee 和 GitHub 发布
 
 ## 安装
 
@@ -155,44 +154,6 @@ npm run build
 
 ```bash
 npm run build:lib
-```
-
-发布前完整检查：
-
-```bash
-npm run release:check
-```
-
-## 发布到 npm
-
-在当前电脑登录一次：
-
-```bash
-npm login
-```
-
-确认当前 npm 账号：
-
-```bash
-npm whoami
-```
-
-构建并检查 npm 包内容：
-
-```bash
-npm run release:check
-```
-
-公开发布：
-
-```bash
-npm publish --access public
-```
-
-发布成功后，用户可以这样安装：
-
-```bash
-npm install nitekit
 ```
 
 ## Gitee
