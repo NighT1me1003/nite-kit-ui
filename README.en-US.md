@@ -2,7 +2,19 @@
 
 [简体中文](./README.md) | **English**
 
+[![npm version](https://img.shields.io/npm/v/nitekit?color=6d5dfc&label=npm)](https://www.npmjs.com/package/nitekit)
+[![npm downloads](https://img.shields.io/npm/dm/nitekit?color=2bb8d8&label=downloads)](https://www.npmjs.com/package/nitekit)
+[![license](https://img.shields.io/npm/l/nitekit?color=36cfc9)](./LICENSE)
+[![Vue 3](https://img.shields.io/badge/Vue-3.5-42b883)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6)](https://www.typescriptlang.org/)
+
 NiteKit UI is a Vue 3 component library with a glassmorphism visual language, TypeScript declarations, full-package install support, and a bilingual documentation portal.
+
+## Preview
+
+![NiteKit UI homepage preview](https://raw.githubusercontent.com/NighT1me1003/nite-kit-ui/main/docs/images/nitekit-ui-home.png)
+
+![NiteKit UI props recipes preview](https://raw.githubusercontent.com/NighT1me1003/nite-kit-ui/main/docs/images/nitekit-ui-props.png)
 
 ## Features
 
@@ -163,6 +175,12 @@ Build the npm library package:
 ```bash
 npm run build:lib
 ```
+
+## Project Maintenance
+
+- [CHANGELOG](./CHANGELOG.md)
+- [CONTRIBUTING](./CONTRIBUTING.md)
+- [SECURITY](./SECURITY.md)
 
 ## Gitee
 

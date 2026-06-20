@@ -2,7 +2,19 @@
 
 **简体中文** | [English](./README.en-US.md)
 
+[![npm version](https://img.shields.io/npm/v/nitekit?color=6d5dfc&label=npm)](https://www.npmjs.com/package/nitekit)
+[![npm downloads](https://img.shields.io/npm/dm/nitekit?color=2bb8d8&label=downloads)](https://www.npmjs.com/package/nitekit)
+[![license](https://img.shields.io/npm/l/nitekit?color=36cfc9)](./LICENSE)
+[![Vue 3](https://img.shields.io/badge/Vue-3.5-42b883)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6)](https://www.typescriptlang.org/)
+
 NiteKit UI 是一个用于 Vue 3 的组件库，提供玻璃拟态风格、TypeScript 类型声明、完整安装入口，以及中英文双语文档门户。
+
+## 预览
+
+![NiteKit UI 首页预览](https://raw.githubusercontent.com/NighT1me1003/nite-kit-ui/main/docs/images/nitekit-ui-home.png)
+
+![NiteKit UI Props 案例预览](https://raw.githubusercontent.com/NighT1me1003/nite-kit-ui/main/docs/images/nitekit-ui-props.png)
 
 ## 特性
 
@@ -163,6 +175,12 @@ npm run build
 ```bash
 npm run build:lib
 ```
+
+## 项目维护
+
+- [CHANGELOG](./CHANGELOG.md)
+- [CONTRIBUTING](./CONTRIBUTING.md)
+- [SECURITY](./SECURITY.md)
 
 ## Gitee
 

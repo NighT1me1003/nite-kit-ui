@@ -1,6 +1,7 @@
 # Documentation site and source files are kept in the repository, not in the npm package.
 src
 index.html
+docs
 dist/docs
 
 # Local development configuration.
