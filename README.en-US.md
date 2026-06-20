@@ -203,12 +203,6 @@ Repository:
 https://gitee.com/NightT1me/nite-kit-ui.git
 ```
 
-Push code:
-
-```bash
-git push gitee main
-```
-
 ## GitHub
 
 Repository:
@@ -217,8 +211,8 @@ Repository:
 https://github.com/NighT1me1003/nite-kit-ui.git
 ```
 
-Push code:
+## Contributing and Review
 
-```bash
-git push github main
-```
+A public repository does not mean everyone can push code directly. Direct push access is limited to maintainers or explicitly authorized collaborators.
+
+If you want to fix an issue or propose an improvement, please fork the repository and submit a Pull Request / Merge Request. All external code changes should be reviewed before they are merged.

@@ -203,12 +203,6 @@ npm install nitekit
 https://gitee.com/NightT1me/nite-kit-ui.git
 ```
 
-推送代码：
-
-```bash
-git push gitee main
-```
-
 ## GitHub
 
 仓库地址：
@@ -217,8 +211,8 @@ git push gitee main
 https://github.com/NighT1me1003/nite-kit-ui.git
 ```
 
-推送代码：
+## 贡献与审查
 
-```bash
-git push github main
-```
+公开仓库不代表所有人都可以直接推送代码。直接 push 权限仅限维护者或被授权的协作者。
+
+如果你想修复问题或提交改进，请先 fork 仓库，再通过 Pull Request / Merge Request 提交变更。所有外部代码变更都需要经过审查后再合并。
