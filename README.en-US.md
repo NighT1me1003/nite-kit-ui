@@ -129,6 +129,14 @@ The project is still in an early stage and may contain many issues or incomplete
 NighT1me2001@outlook.com
 ```
 
+## Author Profile
+
+- Gitee: [NightT1me](https://gitee.com/NightT1me)
+- GitHub: [NighT1me1003](https://github.com/NighT1me1003)
+- Bilibili: [3706941182315084](https://space.bilibili.com/3706941182315084)
+- Douyin: @时野 (94269830594)
+- Xiaohongshu: @NighT1me (560005426)
+
 ## Local Development
 
 ```bash

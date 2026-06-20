@@ -129,6 +129,14 @@ import 'nitekit/style.css'
 NighT1me2001@outlook.com
 ```
 
+## 作者资料
+
+- Gitee: [NightT1me](https://gitee.com/NightT1me)
+- GitHub: [NighT1me1003](https://github.com/NighT1me1003)
+- Bilibili: [3706941182315084](https://space.bilibili.com/3706941182315084)
+- 抖音: @时野 (94269830594)
+- 小红书: @NighT1me (560005426)
+
 ## 本地开发
 
 ```bash
